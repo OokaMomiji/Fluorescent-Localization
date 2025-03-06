@@ -1,0 +1,21 @@
+file_path = "/data/nas-shared/LinWF data/Single molecule fluorescence microscopy data/240722yyx/8triangle/"
+start_frame = 0
+end_frame = 50
+[LOCS_CONFIG]
+image_size = 1024 #side length of input image
+rmin = 1 # param for rvt single frame 
+rmax = 10 # param for rvt single frame 
+neighborhood_size = 5 # single frame
+threshold = 1 # single frame
+fthreshold = 1 # frequency matrix
+
+[FREQUENCY_PLOT]
+figsize = [12, 12]
+vmax = 1
+
+[SEQUENCES_CONFIG]
+extract_size =2
+
+[SEQUENCES_PLOT]
+total_plots_number = 30
+start = 0
