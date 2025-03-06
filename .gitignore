@@ -1,0 +1,7 @@
+start_of_the_day.sh
+end_of_the_day.sh
+results*
+lot.ipynb
+__pycache__
+# Ignore dynaconf secret files
+.secrets.*
